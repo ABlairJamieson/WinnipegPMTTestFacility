@@ -1,0 +1,73 @@
+iMan and iMandy
+===============
+Version: 1.0
+
+READ-ME file updated on: 2011-10-28
+
+Table of Contents
+-----------------
+
+  1. Introduction
+  2. Installation Instructions
+  3. How to Use the Models
+  4. How to Change the Manikin's Size
+
+
+INTRODUCTION
+------------
+
+iMan and iMandy are updated versions of iMike, originally created by Michael Ficarra.
+I updated the embedded spreadsheet to create correctly sized anthropometric manikins.
+Dimensions are based on 1988 data from DOD-HDBK-743A.  iMan and iMandy include the
+1st, 5th, 25th, 50th, 75th, 90th, 95th and 99th percentile dimensions.
+
+None of this would be possible without the iMike models created by Mr. Ficarra.
+The updated files were renamed iMan and iMandy to avoid confusion with iMike, but
+they are derivative works of iMike (including this Read-Me.txt file).
+
+iMan and iMandy look best if you uncheck "Edges" for Active Components under
+"Shaded display modes" found on the Tools >> Application Options >> Display tab.
+
+
+INSTALLATION INSTRUCTIONS
+-------------------------
+
+Unzip the files and put into a directory included in your Inventor project path.
+Inventor 2010 or later version required!
+
+
+HOW TO USE THE MODELS
+---------------------
+
+  1. Open the iMan.iam or iMandy.iam assembly file.
+
+  2. Constrain the manikin as necessary to locate in your model.
+
+  3. Grab and move the hands, arms, or legs.  Constraints have been added so the
+     manikin moves somewhat ergonomically.  Move the fingers and the hands will
+     rotate at the wrists; Move the legs and the knees will bend while keeping
+     the feet parallel to the ground.
+
+  4. Modify the user parameters for common constraints override.
+
+  5. Suppress constraints for more mobility.  Add new constraints as required.
+
+
+HOW TO CHANGE THE MANIKIN'S SIZE
+--------------------------------
+
+  1. In the assembly browser, click the plus sign (+) next to the 1st part, either
+     "iMan - 2D BODY:1" or "iMandy - 2D BODY:1" (if not already expanded).
+
+  2. In the assembly browser, click the plus sign (+) next to "3rd Party".
+
+  3. In the assembly browser, right-click the DIMENSION PICKER and select Edit.
+
+  4. After Excel opens, use the dropdown box (cell E4) to select your manikin size.
+
+  5. Close the Excel window.  Select the "Manage" command from Inventor's menu and
+     then perform an "Update".  The model should update in a few seconds.
+ 
+  6. The new manikin size will be saved when you save the model.
+
+Contact me (Mike Fox) at my website (apollocanard.com) if you have any questions.
